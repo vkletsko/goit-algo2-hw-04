@@ -37,13 +37,3 @@ if __name__ == "__main__":
     trie = LongestCommonWord()
     strings = ["dog", "racecar", "car"]
     assert trie.find_longest_common_word(strings) == ""
-
-    # Extra negative cases
-
-    # trie = LongestCommonWord()
-    # strings = []
-    # assert trie.find_longest_common_word(strings) == ""
-
-    # trie = LongestCommonWord()
-    # strings = ["dog", 1, True]
-    # assert trie.find_longest_common_word(strings) == ""
